@@ -1,0 +1,164 @@
+
+*
+{
+	padding:0px;
+	margin: 0px;
+}
+
+.continar{
+	
+	width:1170px;
+	margin:auto;
+
+
+}
+
+
+.headwrapper {
+    overflow: hidden;
+}
+
+.headsite {
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.headsite img {width: 150px;}
+
+
+ul#menus {
+    width: 600px;
+    float: right;
+    list-style: none;
+}
+
+ul#menus li {
+	float: left;
+	margin-left: 60px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+
+}
+
+ul#menus a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.marquees {
+    width: 643px;
+    margin-left: 325px;
+    margin-top: 20px;
+    color: red;
+}
+
+
+
+ul#submenu {
+    width: 250px;
+    list-style: none;
+    visibility: hidden;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: 1s;
+    background: #ddd;
+    border-radius: 10px;
+    position: absolute;
+}
+
+ul#submenu li {
+    text-transform: capitalize;
+    font-size: 25px;
+    padding: 5px;
+}
+
+ul#menus li:hover ul#submenu{
+	
+	visibility:visible;
+	transform: scaleX(1);
+}
+
+
+.fullpakage {
+    width: 700px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.ptitle {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.fpimg img {width: 400px;border-radius: 10px;}
+
+.fpraggraph {
+    margin-top: 50px;
+}
+
+
+.fpraggraph h3 {
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.fpraggraph p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-weight: 100;
+}
+
+.servicepoint span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+ul#uls {
+    font-size: 25px;
+    margin-top: 36px;
+}
+
+ul#ulss {
+    margin-top: 21px;
+    font-size: 21px;
+}
+
+.servicepoint {
+    margin-top: 38px;
+}
+
+.fpimg {
+    margin-top: 36px;
+}
+
+.pricingp {
+    overflow: hidden;
+}
+
+.boxpricing {
+    width: 300px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 38px;
+    border: 2px solid black;
+    padding: 17px;
+}
+
+.boxpricing h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.boxpricing span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.boxpricing h2 {
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
